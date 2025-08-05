@@ -45,11 +45,6 @@ description = "ARN of the frontend green target group"
 value = aws_lb_target_group.frontend_green.arn
 }
 
-/*output "backend_target_group_arn" {
-description = "ARN of the backend target group"
-value = aws_lb_target_group.backend.arn
-}
-*/
 output "backend_blue_target_group_arn" {
 description = "ARN of the backend blue target group"
 value = aws_lb_target_group.backend_blue.arn
